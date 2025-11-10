@@ -60,3 +60,40 @@ This project is licensed under the MIT License.
 - **Mohmmd Gaber** – Deep Learning, data preparation, model training  
 🔗 [Original Repo on GitHub](https://github.com/mohmmdgaber/FinalProject2024)
 
+---
+
+## 🚀 Quickstart (Run the Project)
+
+Clone the repository:
+
+```bash
+git clone https://github.com/mohamad-ee/eeg-lstm-dsp.git
+cd eeg-lstm-dsp
+
+python -m venv .venv
+# Windows:
+# .venv\Scripts\activate
+# Linux/Mac:
+# source .venv/bin/activate
+
+pip install -r requirements.txt
+
+jupyter notebook
+
+---
+
+## ✅ Results
+
+The project successfully performs EEG signal classification using multiple models.
+Key results include:
+
+- Accurate separation between seizure vs. non-seizure signals
+- Mental state classification (relaxed vs. focused vs. distracted)
+- Improved performance after preprocessing (filtering, normalization)
+- LSTM model shows higher accuracy compared to classical ML methods
+
+Even without visual plots, all performance metrics (accuracy, confusion matrix, loss, and validation scores) can be reproduced by running the Jupyter notebooks.
+
+---
+
+
